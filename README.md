@@ -1,5 +1,5 @@
 # Inject_Dylib
-Swift code to programmatically perform dylib injection
+Swift code to programmatically perform dylib injection. You can also use this (or the manual method of dylib injection from the command line) to validate/test some of the findings from my EntitlementChecks scripts (https://github.com/cedowens/EntitlementCheck).
 
 Steps:
 
