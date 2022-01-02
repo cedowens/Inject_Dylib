@@ -10,6 +10,6 @@ Swift code to programmatically perform dylib injection. You can also use this (o
 5. Place your injection dylib in the same folder as the Inject_Dylib binary
 6. > ./Inject_Dylib
 
-I included a sample dylib that opens calc if the injection is successful.
+The sample code here injects into GarageBand (which does not have HardenedRuntime enabled) and uses the included calc.dylib (pops calculator) for the injection.
 
 ![Image](example.gif)
